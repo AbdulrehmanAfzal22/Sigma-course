@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs and Form</title>
+</head>
+
+<body>
+    <h2>This is my website</h2>
+    <form action="backend.php">
+<label for="Myname">Name</label>
+        <div>  <input type="text" name="Myname" id="Myname"></div><br>
+        <label for="Myrole">Role</label>
+        <div>  <input type="text" name="Myrole" id="Myrole"></div><br>
+        <!-- br is not recommended -->
+         <label for="Myemail">Email</label>
+        <div> <input type="text" name="Myemail" id="Myemail"></div><br>
+        <label for="Mydate">Date of birth</label>
+        <div><input type="date" name="Mydate" id="Mydate"></div><br>
+        <div> Bonus<input type="number" name="Mybonus"></div><br>
+        <div> Gender: Male<input type="radio" name="Mygender" id=""> Female<input type="radio" name="Mygender" id="">
+        </div><br>
+        <label for="car">Car</label>
+        <select name="Mycar" id="car">
+            <option value="civic">Civic</option>
+            <option value="city">City</option>
+            <option value="yaris">Yaris</option>
+        </select><br><br>
+        <div>You are not a robot: <input type="checkbox" name="Myrobot" id="" checked></div><br>
+        Write about yourself : <br><textarea name="Mytext" id="" cols="20" rows="10"></textarea>
+
+        <div><input type="submit" value="Submit now"> <input type="reset" value="Reset now" name="Myreset"></div>
+    </form>
+</body>

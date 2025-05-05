@@ -1,5 +1,5 @@
 
-var a = 67
+var a = 47
 console.log(a)
 a = "harry"
 console.log(a)
