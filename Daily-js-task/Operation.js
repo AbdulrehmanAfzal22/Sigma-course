@@ -1,6 +1,6 @@
 //arthematic operators
 let a = 34
-let b = 66
+let b = 64
 console.log("a + b =",a+b)
 console.log("a - b =",a-b)
 console.log("a / b =",a/b)
