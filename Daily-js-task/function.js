@@ -20,7 +20,7 @@ console.log("Addition of these is",result)
 function subtraction(a,b) {
     return  a-b
 }
- result = subtraction(3,4)
+ result = subtraction(4,4)
 console.log("subtraction of these is",result)
 
 function multiplication(a,b) {

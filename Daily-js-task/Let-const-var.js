@@ -3,7 +3,7 @@ let b = "Harry";
 const author = "Harry"
 author = 5 
 b = 4
-const harry = 0;
+const Ali = 0;
 let c = null
 let d  = undefined  
 {
