@@ -1,12 +1,6 @@
 let input = prompt("Enter a number:");
 let number = Number(input);
 
-if (number % 2 === 0) {
-  console.log(`This ${number} is an even number.`);
-} else {
-  console.log(`This ${number} is an odd number.`);
-}
-
 let Prime = true;
 
 if (number <= 1) {
@@ -24,4 +18,10 @@ if (Prime) {
   console.log(`This ${number} is a prime number.`);
 } else {
   console.log(`This ${number} is not a prime number.`);
+}
+
+if (isPalindrome) {
+  console.log(`This ${number} is a palindrome.`);
+} else {
+  console.log(`This ${number} is not a palindrome.`);
 }

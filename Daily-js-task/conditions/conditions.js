@@ -14,7 +14,7 @@ else if (age == 0) {
 else {
     console.log("You cannot drive")
 }
-let a = 3
-let b = 4
-let c = a > b ? (a + b) : (a - b)
-console.log(c)
+// let a = 3
+// let b = 4
+// let c = a > b ? (a + b) : (a - b)
+// console.log(c)

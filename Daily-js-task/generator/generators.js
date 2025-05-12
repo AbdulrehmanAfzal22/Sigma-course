@@ -9,12 +9,6 @@ function showname() {
                 let name = adjective[i]+" "+shopname[s]+" "+other[o];
 console.log(name)
 count++;
-
-
-if (count >= 10) {
-    alert("Only the first 10 names are generated!");
-    return;
-}
             }
         }
 
