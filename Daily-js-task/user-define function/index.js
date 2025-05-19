@@ -1,6 +1,6 @@
 console.log("Student Info");
 
-// Single Result function to handle any marks and max marks
+
 function Result(marks) {
     let percentage = (marks / 1100) * 100;
     console.log(` Matric  Percentage: ${percentage}%`);
