@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard events</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #mybox {
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+            font-size: 7.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="mybox">😍</div>
+
+    <script>
+        const myBox = document.getElementById("mybox")
+document.addEventListener("keydown",function () {
+        mybox.textContent="🤩"
+        mybox.style.backgroundColor = "tomato"
+        })
+        document.addEventListener("keyup",function () {
+             mybox.textContent="😍"
+        mybox.style.backgroundColor = "aqua"
+        })
+    </script>
+</body>
+
+</html>

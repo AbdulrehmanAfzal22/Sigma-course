@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Click Event </title>
+</head>
+<body>
+
+  <button id="down">Click </button>
+<button id="up">Relase</button>
+<button id="Enter">Enter</button>
+<button id="leave">leave</button>
+<button id="move1">move</button>
+<button id="menu">Menu</button>
+<button id="dclick1">double click</button>
+<p>lorem4000000</p>
+  <script>
+    let down = document.getElementById("down");
+    down.addEventListener("mousedown", function () {
+      alert("Button was clicked!");
+    });
+let up = document.getElementById("up");
+    up.addEventListener("mouseup", function () {
+      alert("Mouse button released!");
+    });
+let enter = document.getElementById("Enter");
+    enter.addEventListener("mouseleave", function () {
+      alert("Mouse entered the button!");
+    });
+
+let leave = document.getElementById("leave");
+    leave.addEventListener("click", function () {
+      alert("Mouse left the button!");
+    });
+
+    move.addEventListener("mousemove", function () {
+      alert("Mouse moved over the button!");
+    });
+
+    let me = document.getElementById("menu");
+    menu.addEventListener("contextmenu", function () {
+      alert("Right click menu is opened");
+    });
+  let double = document.getElementById("dclick1");
+    dclick1.addEventListener("dblclick", function () {
+      alert("Double");
+    });
+
+       window.addEventListener("load",function (){
+            alert("window is loaded!");
+        });
+        
+        window.addEventListener("resize",function (){
+            alert("window is resized!");
+        });
+        window.addEventListener("scroll",function (){
+            alert("window is scrolled!");
+        });
+
+     window.addEventListener("beforeunload",function (){
+            e.preventDefault();
+            e.returnValue;
+        });
+        
+  </script>
+
+</body>
+</html>

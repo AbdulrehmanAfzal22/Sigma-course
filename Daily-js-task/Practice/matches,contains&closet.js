@@ -1,0 +1,6 @@
+id1 = document.getElementById("id1")
+console.log(id1)
+console.log(id1.matches(".class"))
+console.log(id1.matches(".Box"))
+console.log(span1.closest("#id1"))
+console.log(id1.contains(span1))
