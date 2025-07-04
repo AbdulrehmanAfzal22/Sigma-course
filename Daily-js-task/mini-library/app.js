@@ -69,5 +69,5 @@ buttons[3].onclick = function () {
         <td>${b.id}</td>
       </tr>
     `;
-  }
+  } 
 };
