@@ -1,25 +1,49 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Counter</title>
+  <title>Calculator</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+  <div class="heading">
+    <h1>Calculator</h1>
+  </div>
+
   <div class="container">
-    <h1>Counter</h1>
     <div class="counter">
-      <div class="count">0</div>
-      <div class="buttons">
-        <button id="decrement">-</button>
-        <button id="reset">Reset</button>
-        <button id="increment">+</button>
+      <div class="count" id="display">0</div>
+
+      <div class="button-grid">
+        <div class="row">
+          <button class="btn" id="btn-1">1</button>
+          <button class="btn" id="btn-2">2</button>
+          <button class="btn" id="btn-3">3</button>
+          <button class="btn" id="increment">+</button>
+        </div>
+        <div class="row">
+          <button class="btn" id="btn-4">4</button>
+          <button class="btn" id="btn-5">5</button>
+          <button class="btn" id="btn-6">6</button>
+          <button class="btn" id="decrement">-</button>
+        </div>
+        <div class="row">
+          <button class="btn" id="btn-7">7</button>
+          <button class="btn" id="btn-8">8</button>
+          <button class="btn" id="btn-9">9</button>
+          <button class="btn" id="reset">Reset</button>
+        </div>
+        
+        <div class="row">
+          <button class="btn" id="divide">÷</button>
+          <button class="btn" id="multiply">×</button>
+          <button class="btn" id="equals">=</button>
+        </div>
       </div>
     </div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,16 +1,15 @@
-
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    color: white;
     border: 2px solid black;
     width: 50%;
-    height: 50vh;
-    color: white;
-    background-color: black;
     margin: 100px auto;
     border-radius: 50px;
     flex-direction: column;
+    padding: 40px;
 }
 
 .counter {
@@ -21,33 +20,74 @@
 }
 
 .count {
-    font-size: 50px;
-    text-align: center;
+    font-size: 60px;
     color: white;
+    background-color: black;
+    text-align: right;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 240px;
+    border: 2px solid white;
 }
 
-.buttons {
+.button-grid {
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
 }
 
 button {
-    padding: 10px 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
     border: none;
-    border-radius: 5px;
-    color: white;
+    border-radius: 10px;
     cursor: pointer;
-    font-size: 18px;
+}
+
+.btn {
+    background-color: yellow;
+    color: black;
 }
 
 #increment {
     background-color: green;
+    color: white;
 }
 
 #decrement {
     background-color: red;
+    color: white;
 }
 
 #reset {
     background-color: blue;
+    font-size: 16px;
+    color: white;
+}
+
+#divide {
+    background-color: teal;
+    color: white;
+}
+
+#multiply {
+    background-color: purple;
+    color: white;
+}
+
+#equals {
+    background-color: orange;
+    color: white;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
